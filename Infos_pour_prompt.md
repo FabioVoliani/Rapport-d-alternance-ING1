@@ -1,4 +1,4 @@
-Je dois rédiger un rapport sur mon année d'alternance en dev web sur l'année scolaire 2024/2025.
+Je dois rédiger un rapport sur mon année d'alternance en dev web sur l'année scolaire 2024/2025. Aide moi à le rédiger dans le fichier VOLIANI_Fabio_rapport.md
 
 Liste des pages à ne pas faire/modifier :
 - Page de couverture
