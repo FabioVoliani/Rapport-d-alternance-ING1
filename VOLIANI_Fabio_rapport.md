@@ -1,3 +1,7 @@
+
+
+
+
 RAPPORT D’ALTERNANCE
 
 
@@ -6,23 +10,25 @@ RAPPORT D’ALTERNANCE
 
 
 
+9 Rue Jean François Leca, 13002 Marseille
 
 
 
 
 
-
-
-
-INSTITUT G4
 Formation cycle ingénieur 1ère année (ING 1)
-
-
-
 
 Fabio VOLIANI
 Année académique 2024-2025
 Marseille
+
+
+
+
+
+
+Tuteur : Ludovic PEREZ
+		SIGNATURE =
 
 
 
@@ -34,7 +40,7 @@ Marseille
 	J’aimerais adresser des remerciements à toute l’équipe avec qui je travaille directement ou indirectement.
 
 
-Tout d’abord merci à Ludovic PEREZ et Romain SASSI, sans qui mon aventure chez Vernalis n’aurait pu débuter, puis merci aux développeurs Lucie AUGIER, Carlos RUIZ, Shun LASSALE et Simon RETAILLEAU qui n’ont jamais cessé et ne cessent toujours pas de contribuer à mon apprentissage au sein de l’entreprise, et enfin merci aux cheffes de projet Florence PAZ et Floriane DEZORD ainsi que la designer Camille GARCIA pour les projets variés qu’ils nous concoctent et les retours sur mon travail toujours très constructifs. 
+Tout d’abord merci à Ludovic PEREZ et Romain SASSI, sans qui mon aventure chez Vernalis n’aurait pu débuter, puis merci aux développeurs Lucie AUGIER, Carlos RUIZ DE LA GALARRETA, Shun LASSALE et Simon RETAILLEAU qui n’ont jamais cessé et ne cessent toujours pas de contribuer à mon apprentissage au sein de l’entreprise, et enfin merci aux cheffes de projet Florence PAZ et Floriane DEZORD ainsi que la designer Camille GARCIA pour les projets variés qu’elles nous concoctent et les retours sur mon travail toujours très constructifs. 
 
 
 Je tiens également à remercier Caroline GIELLA, responsable administrative et comptable, Lola GUGLIELMINA et Raphaël RAYNAUT de chez Brandparty, ainsi que toute l’équipe déjà précédemment citée pour l’accueil chaleureux qui m’a été réservé, puis pour la bonne ambiance et la création d’un cadre propice à mon apprentissage et à mon bon ressenti dans l’entreprise.
@@ -78,39 +84,37 @@ Looking back, I see the diversity of my assignments and the trust placed in me b
 4. Sommaire
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+1. Remerciements
+	2
+2. Confidentialité
+	2
+3. Synthèse
+	3
+4. Sommaire
+	4
+5. Introduction
+	5
+6. Développement	6
+6.1 Présentation de l'entreprise	6
+6.2 Description des missions ou projets réalisés	7
+6.2.0 Contexte technique et gestion des ressources	7
+6.2.1 Intégration web et création de pages	12
+6.2.2 Gestion de contenu et back-office WordPress	15
+6.2.3 Installation, migration et maintenance technique	18
+6.2.4 Refonte visuelle et développement sur mesure	20
+6.2.5 Maintenance évolutive et corrective	24
+6.2.6 Difficultés rencontrées et solutions apportées	24
+6.2.7 Compétences mobilisées (norme AFNOR)	25
+6.2.8 Synthèse des projets réalisés	26
+6.3 Analyse et réflexion
+	27
+7. Conclusion
+	28
+8. CV à jour
+	29
+9. Liste des références
+	30
+10. Annexes	31
 
 
 
@@ -149,7 +153,7 @@ Vous découvrirez ainsi comment chaque projet a contribué à mon évolution pro
 6. Développement
 
 
-2.1 Présentation de l'entreprise
+6.1 Présentation de l'entreprise
 
 Vernalis Interactive est une agence digitale française fondée en 2001, spécialisée dans la communication numérique au service des acteurs publics. Son siège social est situé au 9 rue Jean-François Leca, 13002 Marseille.
 
@@ -163,14 +167,14 @@ L’entreprise se distingue par son expertise technique, sa connaissance approfo
 
 
 
-2.2 Description des missions ou projets réalisés
+6.2 Description des missions ou projets réalisés
 
 Durant mon année d’alternance chez Vernalis Interactive, j’ai été amené à intervenir sur une grande diversité de projets web, principalement pour des collectivités territoriales, des établissements publics et quelques clients privés. Mes missions se sont articulées autour de deux axes majeurs : la maintenance évolutive et corrective de sites existants, et la refonte ou création de nouveaux sites web. Cette section détaille l’ensemble des activités réalisées, les outils et méthodes employés, les difficultés rencontrées, ainsi que les compétences mobilisées.
 
 —
 
 
-2.2.0 Contexte technique et gestion des ressources
+6.2.0 Contexte technique et gestion des ressources
 
 
 – contexte technique
@@ -213,13 +217,21 @@ Dans le cadre de mes missions de maintenance et de support, j’ai utilisé des 
 
 Fonctionnalités clés utilisées :  
 
-- **Création et gestion de tickets d’incidents ou de demandes d’évolution** : Chaque nouvelle demande, qu’il s’agisse d’un bug à corriger, d’une fonctionnalité à ajouter ou d’une simple question, était formalisée sous forme de ticket. Cela permettait de garder une trace précise de toutes les interventions à réaliser, d’assurer un suivi rigoureux et d’éviter les oublis, même lors de périodes de forte activité.
 
-- **Attribution des tickets aux membres de l’équipe selon les compétences et disponibilités** : Les tickets étaient répartis en fonction des spécialités de chacun (front-end, back-end, intégration, etc.) et de la charge de travail. Cette organisation favorisait la réactivité et la résolution rapide des problèmes, tout en permettant à chacun de monter en compétence sur des sujets variés.
+Création et gestion de tickets d’incidents ou de demandes d’évolution : Chaque nouvelle demande, qu’il s’agisse d’un bug à corriger ou d’une fonctionnalité à ajouter, est formalisée sous forme de ticket. Cela permet de garder une trace précise de toutes les interventions à réaliser, d’assurer un suivi rigoureux et d’éviter les oublis, même lors de périodes de forte activité.
 
-- **Suivi de l’avancement des tickets et relances automatiques en cas de dépassement de délais** : Les outils de ticketing intègrent des systèmes de notifications et de rappels automatiques. Ainsi, lorsqu’un ticket restait en attente ou approchait de sa date limite, une alerte était envoyée à la personne concernée. Cela garantissait le respect des délais et la satisfaction des clients.
+Attribution des tickets aux membres de l’équipe selon les compétences et disponibilités :  Les tickets sont répartis en fonction des spécialités de chacun (selon quel agent est le plus à l’aise avec la tâche en question) et de la charge de travail. Cette organisation favorise la réactivité et la résolution rapide des problèmes, tout en permettant à chacun de monter en compétence sur des sujets variés.
 
-- **Communication avec les clients via la plateforme pour les tenir informés de l’état d’avancement** : Les plateformes comme Freshdesk permettent d’échanger directement avec le client sur chaque ticket. Les clients reçoivent des notifications à chaque mise à jour, peuvent ajouter des précisions ou valider la résolution d’un problème. Cette transparence favorise la confiance et la qualité de la relation client.
+Suivi de l’avancement des tickets et relances automatiques en cas de dépassement de délais : Les outils de ticketing intègrent des systèmes de notifications et de rappels automatiques. Ainsi, lorsqu’un ticket restait en attente ou approchait de sa date limite, une alerte était envoyée à la personne concernée. Cela garantissait le respect des délais et la satisfaction des clients.
+
+Communication avec les clients via la plateforme pour les tenir informés de l’état d’avancement : Les plateformes comme Freshdesk permettent d’échanger directement avec le client sur chaque ticket. Les clients reçoivent des notifications à chaque mise à jour et peuvent ajouter des précisions. Cette transparence favorise la confiance et la qualité de la relation client.
+
+
+
+
+
+
+
 
 
 
@@ -238,7 +250,7 @@ Des demandes spécifiques ou des priorités à traiter
 
 
 
-– Interface Furious (image d’archive)
+– Interface Furious (image d’archive) (Annexe 1)
 
 
 
@@ -261,14 +273,34 @@ Une traçabilité complète des interventions de maintenance
 
 
 
-– Interface Freshdesk (image d’archive)
+– Interface Freshdesk (image d’archive) (Annexe 2)
 
 
 Ce dispositif garantissait une réactivité optimale et une organisation efficace du support client.
- 2.2.1 Intégration web et création de pages
 
 
-L’intégration web a constitué une part importante de mon activité. J’ai été chargé de créer des pages à partir de maquettes Figma, en utilisant HTML, CSS, JavaScript et PHP. Cela impliquait de respecter scrupuleusement la charte graphique du client, d’assurer la compatibilité multi-navigateurs et l’accessibilité, et d’adapter les interfaces aux besoins spécifiques de chaque projet.
+J’ai également utilisé Mattermost. Mattermost est la plateforme de messagerie instantanée utilisée par l’équipe pour toutes les communications numériques quotidiennes. Elle permet d’échanger rapidement des messages, de partager des fichiers, de créer des canaux thématiques (par projet, client ou sujet technique) et d’organiser des discussions en temps réel ou asynchrones.
+
+
+Grâce à Mattermost, la coordination entre les membres de l’équipe est facilitée, qu’il s’agisse de poser une question technique, de signaler l’avancement d’une tâche, de planifier une réunion ou de partager des ressources utiles. Cette messagerie centralise l’information et contribue à la réactivité et à la cohésion du groupe, même en télétravail.
+
+
+
+
+
+
+– Interface Mattermost (image d’archive) (Annexe 3)
+
+
+
+
+
+
+
+6.2.1 Intégration web et création de pages
+
+
+L’intégration web a constitué une part importante de mon activité. J’ai été chargé de créer des pages à partir de maquettes Figma, en utilisant premièrement HTML et CSS dans un template Twig adapté à l’intégration web sur Wordpress Bedrock puis en utilisant JavaScript et PHP. Cela impliquait de respecter scrupuleusement la charte graphique du client, d’assurer la compatibilité multi-navigateurs et l’accessibilité, et d’adapter les interfaces aux besoins spécifiques de chaque projet.
 
 
 Exemple concret :  
@@ -277,24 +309,30 @@ Site de la mairie de Montarnaud : J’ai assuré la quasi-totalité du développ
 
 
 
-– Haut de la page d’accueil du site de la ville de Montarnaud, en pré-production
+– Haut de la page d’accueil du site de la ville de Montarnaud, en pré-production (Annexe 4)
 
 
 
 
 
-
-– section << Actualités >> de la page d’accueil
-
+– section << Actualités >> de la page d’accueil (Annexe 5)
 
 
 
 
-– section << Agenda>> de la page d’accueil
+– section << Agenda>> de la page d’accueil  desktop / phone (Annexes 6 et 7)
+
+
+
+– Haut d’une page interne du site (Annexe 8)
 
 
 
 Pour chaque projet, je devais :
+
+
+
+
 
 Adapter les contenus pour le responsive design (mobile, tablette, lg, laptop, desktop)
 
@@ -302,9 +340,14 @@ Optimiser le code pour la performance (création de composants, balises alt pour
 
 Tester l’affichage sur différents navigateurs (Chrome, Firefox, Edge, Safari)
 
-—
 
-2.2.2 Gestion de contenu et back-office WordPress
+
+
+
+
+
+—
+6.2.2 Gestion de contenu et back-office WordPress
 
 
 Une part importante de mon travail a consisté à insérer et mettre à jour du contenu dans le back-office WordPress, notamment lors des phases de mise en ligne de nouveaux sites ou de refonte. J’ai également créé des blocs Gutenberg personnalisés à l’aide d’ACF (Advanced Custom Fields) et de Twig, afin d’offrir plus de flexibilité aux clients dans la gestion de leur contenu.
@@ -317,30 +360,35 @@ Création de blocs personnalisés pour faciliter la mise à jour des actualités
 Utilisation d’ACF pour permettre aux clients de gérer eux-mêmes des sections complexes (galeries, carrousels, formulaires, etc.)
 
 
+Bloc Gutenberg << Sélection spectacles >> sur le site de la salle de spectacles l’Etoile-Châteaurenard, permettant de sélectionner manuellement les affiches de spectacles à afficher sur une page donnée
 
 
+– Front du bloc (Annexe 9)
 
 
 
+– Vue du back-office (édition de page Wordpress Bedrock Gutenberg) (Annexe 10)
 
 
 
 
+– Configuration du groupe de champs ACF (Annexe 11)
 
 
 
 
-Bloc Gutenberg << Sélection spectacles >> sur le site de la salle de spectacles l’Etoile-Châteaurenard
 
 
-– Front du bloc
 
 
+– Quelques champs ACF éditables sur la page d’accueil du site de l’Etoile-Châteaurenard (Annexe 12)
 
 
 
 
+En complément du développement de blocs personnalisés, une part importante de mon travail a également consisté à insérer et structurer le contenu textuel une fois les sites internet finalisés. Cela impliquait de créer l’arborescence complète des pages dans le back-office WordPress, de générer tous les posts correspondant aux différents types de contenus (actualités, événements, galeries, etc.) et de les renseigner à l’aide des blocs développés sur mesure.
 
+Pour les sites de mairies, cette étape revêt une dimension particulière : il s’agit très souvent de reprendre l’ensemble des contenus présents sur l’ancien site, de les adapter au nouveau design et à la nouvelle structure, puis de les intégrer manuellement dans le back-office. Ce travail de migration de contenu nécessite à la fois rigueur, sens de l’organisation et capacité à reformuler ou réorganiser l’information pour qu’elle soit cohérente et accessible sur la nouvelle plateforme.
 
 
 
@@ -350,58 +398,7 @@ Bloc Gutenberg << Sélection spectacles >> sur le site de la salle de spectacles
 
 
 
-
-
-
-
-
-
-– Vue du back-office (édition de page Wordpress Bedrock Gutenberg)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-– Configuration du groupe de champs ACF
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-– Quelques champs ACF éditables sur la page d’accueil du site de l’Etoile-Châteaurenard
-
-2.2.3 Installation, migration et maintenance technique
+6.2.3 Installation, migration et maintenance technique
 
 
 J’ai régulièrement installé des sites en local via Docker ou XAMPP, afin de disposer d’environnements de développement isolés pour tester les évolutions avant déploiement. J’ai aussi participé à la migration de sites vers de nouveaux serveurs, en veillant à minimiser les interruptions de service pour les utilisateurs finaux.
@@ -468,9 +465,9 @@ Le DNS ou l’enregistrement de l’hôte est modifié pour pointer vers le nouv
 9/ Suppression du site sur l’ancien serveur
 Après validation, le site obsolète est supprimé de l’ancien serveur pour libérer des ressources et garantir la sécurité.
 
-Tout au long de la procédure, la résolution de bugs et d’incompatibilités est essentielle pour assurer une migration sans interruption de service.
+(Annexe 13) 		    Tout au long de la procédure, la résolution de bugs et d’incompatibilités est essentielle pour assurer une migration sans interruption de service.
 
-2.2.4 Refonte visuelle et développement sur mesure
+6.2.4 Refonte visuelle et développement sur mesure
 
 
 J’ai contribué à la refonte visuelle de plusieurs sites, notamment ceux de www.cdc-oleron.com, www.ville-aniane.com, www.etoile-chateaurenard.com et d’autres encore, en utilisant Twig et ACF pour personnaliser les thèmes et améliorer l’expérience utilisateur. J’ai également créé des pages statiques HTML/CSS pour des clients comme American Vintage et développé des bannières HTML pour leurs campagnes promotionnelles.
@@ -485,7 +482,7 @@ Projet Étoile Châteaurenard : Responsable du développement du site pour une s
 
 
 
-Projet Sophim : Création de la homepage sur mesure, adaptée aux besoins du client, avec intégration avancée et déploiement sur serveur de pré-production  
+Projet Sophim : Refonte de la homepage sur mesure, adaptée aux besoins du client, avec intégration dynamique et déploiement sur serveur de pré-production  
 
 
 
@@ -499,19 +496,23 @@ American Vintage : Création de pages statiques et de bannières HTML pour les c
 
 
 
-– Haut de la page d’accueil du site de la salle de spectacle l’Etoile-Châteaurenard
+– Haut de la page d’accueil du site de la salle de spectacle l’Etoile-Châteaurenard (Annexe 14)
 
 
-– Section slider de la page d’accueil
+– Section slider de la page d’accueil (Annexe 15)
 
 
-– Page catalogue des spectacles
+– Page catalogue des spectacles desktop / phone (Annexes 16 et 17)
 
 
 
-– Haut de la page d’accueil du site de Sophim
 
-2.2.5 Maintenance évolutive et corrective
+
+
+
+– Haut de la page d’accueil du site de Sophim (Annexe 18)
+
+6.2.5 Maintenance évolutive et corrective
 
 
 La maintenance des sites clients a été une mission récurrente, gérée via un système de tickets. J’ai assuré la correction de bugs, la mise à jour des plugins, la sécurisation des sites et la gestion des demandes clients.
@@ -526,7 +527,7 @@ Mise à jour régulière de WordPress, des plugins et de PHP pour garantir la s�
 —
 
 
-2.2.6 Difficultés rencontrées et solutions apportées
+6.2.6 Difficultés rencontrées et solutions apportées
 
 Au cours de l’année, j’ai été confronté à plusieurs difficultés techniques et organisationnelles :
 
@@ -545,7 +546,7 @@ Pour chaque difficulté, j’ai pris le temps de documenter la solution trouvée
 
 
 —
-2.2.7 Compétences mobilisées (norme AFNOR)
+6.2.7 Compétences mobilisées (norme AFNOR)
 
 
 Insérer du contenu en back-office WordPress : Ajout et mise à jour de contenu en respectant les structures préétablies
@@ -580,7 +581,7 @@ Créer des bannières HTML : Réalisation de supports promotionnels pour des cam
 
 —
 
-2.2.8 Synthèse des projets réalisés
+6.2.8 Synthèse des projets réalisés
 
 
 
@@ -621,7 +622,7 @@ Assurer un suivi régulier avec le tuteur, les cheffes de projet et les clients
 
 
 —
-2.3 Analyse et réflexion
+6.3 Analyse et réflexion
 
 Au terme de cette année d’alternance chez Vernalis Interactive, il est essentiel de prendre du recul sur l’ensemble des missions réalisées et d’en tirer un bilan constructif, tant sur le plan professionnel que personnel.
 
@@ -641,13 +642,11 @@ Gestion des priorités, organisation et communication : L’utilisation d’outi
 
 Approfondissement technique : Bien que mes compétences aient progressé, je souhaite encore renforcer ma maîtrise de certains outils (Docker, automatisation, sécurité web, gitlab et ses pipelines).
 
--Aller vers la simplification : Simplification et factorisation riment très souvent avec performance, mais aussi avec gain de temps. Je veux tendre vers un gain de temps sur mes projets en gagnant en simplicité dans mes démarches techniques.
+Aller vers la simplification : Simplification et factorisation riment très souvent avec performance, mais aussi avec gain de temps. Je veux tendre vers un gain de temps sur mes projets en gagnant en simplicité dans mes démarches techniques.
 
 Communication client : Développer une communication plus proactive et moins hésitante avec les clients pour mieux anticiper leurs besoins et améliorer la qualité du support.
 
 Documentation : Structurer davantage la documentation technique et améliorer / mettre en place des templates d’utilisation pour faciliter la transmission des connaissances.
-
-
 Prise de recul et enseignements
 
 Cette expérience m’a permis de mieux comprendre les attentes du monde professionnel et l’importance de l’adaptabilité technique comme sociale. J’ai appris à gérer l’imprévu, à travailler en équipe et à m’auto-former face à des problématiques inédites. Les retours réguliers de l’équipe et des clients ont été précieux pour ajuster mes méthodes de travail et progresser.
@@ -657,10 +656,12 @@ Impact sur mon évolution
 
 L’alternance a confirmé mon intérêt pour le développement web et la gestion de projets numériques. Elle a renforcé mes capacités, ma confiance en celles-ci et m’a donné envie de poursuivre dans cette voie, en visant des responsabilités accrues et une expertise technique plus poussée lors des prochaines années de formation et d’expérience professionnelle.
 
+
+
 —
 
 
-3. Conclusion
+7. Conclusion
 
 A mon avis, clore cette année d’alternance c’est surtout mesurer le chemin parcouru : des premiers pas hésitants dans le développement web à la gestion de projets variés, chaque étape a été l’occasion de sortir de ma zone de confort. J’ai découvert la réalité du métier, ses exigences, mais aussi la satisfaction de voir un site fonctionner, d’apporter des solutions concrètes et d’être utile à une équipe.
 
@@ -670,44 +671,72 @@ Je retiens surtout l’importance de l’apprentissage continu et du travail col
 
 —
 
-4. CV à jour
+8. CV à jour
+
+– (Annexe 19)
+9. Liste des références
 
 
-4. Liste des références
 
 [1] "Vernalis Interactive - L'expérience digitale au service des acteurs publics", https://www.vernalis.fr/ (consulté le 16/06/2025).
 
+
 [2] WordPress, "Bedrock: WordPress boilerplate", https://roots.io/bedrock/ (consulté le 17/06/2025).
 
-[3] Twig, "Twig - The flexible, fast, and secure template engine for PHP", https://twig.symfony.com/ (consulté le 18/06/2025).
 
-[4] Advanced Custom Fields, "ACF | Advanced Custom Fields Plugin for WordPress", https://www.advancedcustomfields.com/ (consulté le 19/06/2025).
+[3] Twig, "Twig - The flexible, fast, and secure template engine for PHP", https://twig.symfony.com/ (consulté le 17/06/2025).
+
+
+[4] Advanced Custom Fields, "ACF | Advanced Custom Fields Plugin for WordPress", https://www.advancedcustomfields.com/ (consulté le 17/06/2025).
+
 
 [5] Tailwind CSS, "Tailwind CSS - Rapidly build modern websites without ever leaving your HTML", https://tailwindcss.com/ (consulté le 20/06/2025).
 
+
 [6] Freshdesk, "Freshdesk - Customer support software", https://freshdesk.com/ (consulté le 21/06/2025).
 
-[7] Furious, "FURIOUS - Gestion de projet et pilotage d'entreprise", https://www.furious-squad.com/ (consulté le 22/06/2025).
+
+[7] Furious, "FURIOUS - Gestion de projet et pilotage d'entreprise", https://www.furious-squad.com/ (consulté le 21/06/2025).
 
 
----
 
-5. Annexes
 
-## Sommaire des annexes
 
-Annexe 1 : Capture d’écran de l’interface Furious – Illustration du système de gestion interne des tickets
 
-Annexe 2 : Tableau récapitulatif des projets réalisés – Vue synthétique des missions, dates, technologies et livrables
 
-Annexe 3 : Schéma de la procédure de migration d’un site – Visualisation des étapes techniques de migration
 
-Annexe 4 : Exemple de bloc Gutenberg personnalisé – Illustration d’un bloc développé sur mesure avec ACF et Twig
 
-Annexe 5 : Capture d’écran du dashboard Freshdesk – Exemple de gestion des tickets de maintenance client
 
-Annexe 6 : Documentation technique sur l’installation locale avec Docker – Procédure détaillée pour la mise en place d’un environnement de développement
 
-Annexe 7 : Extrait de code pour la création d’un bloc ACF – Exemple de code commenté pour un bloc personnalisé
 
+—
+10. Annexes
+
+
+
+Annexe 1 : Image d’archive de l’interface Furious – Illustration du système de gestion interne des TODO
+
+
+Annexe 2 : Image d’archive du dashboard Freshdesk – Exemple de gestion des tickets de maintenance client
+
+
+Annexe 3 : Image d’archive de Mattermost – Exemple de canal de conversation textuel
+
+
+Annexes 4, 5, 6, 7, 8 : Captures d’écran de la refonte du site de la ville de Montarnaud (en pré-production) – Quelques sections de la page d’accueil
+
+
+Annexe 9, 10, 11, 12 : Captures d’écran du site de la salle de spectacle l'Étoile-Châteaurenard – Zoom sur la création du bloc gutenberg << Sélection spectacles >> et illustration de la page d’options de la page d’accueil dans le back-office Wordpress
+
+
+Annexe 13 : Schéma de la procédure de migration d’un site – Visualisation des étapes techniques de migration
+
+
+Annexe 14, 15, 16, 17 : Captures d’écran du site de la salle de spectacle l'Étoile-Châteaurenard – Quelques sections de la page d’accueil et du catalogue des spectacles
+
+
+Annexe 18 : Capture d’écran du haut de la page d’accueil du site de Sophim
+
+
+Annexe 19 : Mon CV mis à jour le 21 juin 2025
 
