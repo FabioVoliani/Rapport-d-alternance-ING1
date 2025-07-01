@@ -50,12 +50,23 @@
 
 ## Contexte technique
 
-- Stack utilisée :  
-  - WordPress Bedrock (structure avancée, sécurité, gestion des dépendances)
-  - Twig (moteur de templates pour séparer logique et présentation)
-  - ACF Pro (création de champs et blocs personnalisés)
-  - HTML/SCSS/Tailwind CSS (intégration rapide et responsive)
-  - PHP, JavaScript, Git (versionning)
+- **WordPress Bedrock**  
+  - Boilerplate (structure avancée) pour WordPress, basé sur Composer.  
+  - Sépare le cœur WordPress, les plugins et les thèmes pour une meilleure organisation, sécurité et gestion des dépendances.
+- **Twig**  
+  - Moteur de templates moderne pour PHP.  
+  - Permet de séparer la logique métier du code HTML, facilite la réutilisation et la maintenance des vues.
+- **PHP**  
+  - Langage de programmation côté serveur utilisé pour développer la logique des sites WordPress et les fonctionnalités personnalisées.
+- **HTML/CSS**  
+  - HTML : structure les pages web (titres, paragraphes, images, etc.).  
+  - CSS : gère la mise en forme et le design (couleurs, polices, responsive design).
+- **JavaScript**  
+  - Langage de programmation côté client pour rendre les pages interactives (animations, formulaires dynamiques, etc.).
+- **Advanced Custom Fields Pro (ACF Pro)**  
+  - Extension WordPress permettant de créer des champs personnalisés dans le back-office.  
+  - Facilite la gestion de contenus complexes et la création de blocs Gutenberg sur mesure pour les clients.
+
 - Outils de gestion :  
   - Furious (tickets internes, suivi des tâches)
   - Freshdesk (support client, gestion des incidents)

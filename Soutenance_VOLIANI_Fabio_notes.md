@@ -1,9 +1,28 @@
 # Notes pour la soutenance – Fabio VOLIANI
 
+
+# PREPARATION
+
+SITE EN LOCAL
+
+Préparer une image, 
+
+- PAGES
+  - back-office = liste de tous les spectacles (lien = )
+  - back-office = groupe de champs ACF "Sélection spectacles" 
+  - back-office = options de l'accueil
+
+- FICHIERS VSCODE
+  - bloc selection-spectacles.twig
+  - home.twig (montrer vite fait)
+
+
 ---
 
 ## Introduction
 
+- *Phrase d'accroche* :  
+  "Bonjour à toutes et à tous, merci d’être présents. Je vais vous présenter le bilan de mon année d’alternance chez Vernalis Interactive, et en quoi c'est une expérience qui m’a permis de découvrir et d’approfondir le métier de développeur web."
 - Présenter mon parcours : arrivé chez Vernalis sans expérience en développement web, formation sur le tas.
 - Motivation : envie de comprendre le web, de participer à des projets concrets, d’apprendre en équipe.
 - Alternance : immersion dans le monde professionnel, découverte des attentes et des méthodes de travail.
@@ -40,13 +59,33 @@
 
 ## Contexte technique
 
-- Stack : WordPress Bedrock (sécurité, gestion des dépendances via Composer), Twig (séparation du code et du design), ACF Pro (flexibilité pour le client), Tailwind CSS (intégration rapide, responsive), PHP, Git.
-- Outils de gestion :  
-  - Furious : tickets internes, suivi des tâches, priorisation
-  - Freshdesk : tickets clients, historique des demandes, suivi des incidents
-  - Mattermost : communication quotidienne, partage de fichiers, canaux par projet
-- Environnements de dev : Docker pour simuler la prod, XAMPP pour certains tests rapides.
-- Importance de la maîtrise de ces outils pour garantir la qualité, la sécurité et la maintenabilité du projet.
+- **WordPress Bedrock** : structure avancée pour WordPress, gérée avec Composer.  
+  Permet de séparer le cœur WordPress, les plugins et les thèmes pour une meilleure organisation, sécurité et gestion des dépendances.  
+  Facilite la maintenance et le déploiement sur différents environnements.
+- **Twig** : moteur de templates moderne pour PHP.  
+  Sert à séparer la logique métier du code HTML, ce qui rend le code plus propre, réutilisable et facile à maintenir.  
+  Permet de créer des vues dynamiques et modulaires.
+- **PHP** : langage de programmation côté serveur.  
+  Utilisé pour développer la logique des sites WordPress, les fonctionnalités personnalisées, et l’intégration avec la base de données.
+- **HTML/SCSS** :  
+  - HTML structure les pages web (titres, paragraphes, images, liens, etc.).  
+  - SCSS (Sass) est un préprocesseur CSS : il permet d’écrire du code plus structuré et maintenable grâce aux variables, fonctions, imbrications, mixins, etc.  
+  - Le SCSS est compilé en CSS classique pour être compris par le navigateur.
+- **JavaScript** : langage de programmation côté client.  
+  Permet de rendre les pages interactives (animations, formulaires dynamiques, filtres, sliders…).
+- **Advanced Custom Fields Pro (ACF Pro)** : extension WordPress pour créer des champs personnalisés dans le back-office.  
+  Permet de gérer facilement des contenus complexes, de créer des blocs Gutenberg sur mesure, et de donner plus d’autonomie au client pour la gestion du site.
+
+- **Outils de gestion** :  
+  - Furious : gestion des tickets internes, suivi des tâches, priorisation.
+  - Freshdesk : gestion des tickets clients, suivi des incidents, historique des demandes.
+  - Mattermost : messagerie d’équipe, partage de fichiers, canaux par projet.
+- **Environnements de développement** :  
+  - Docker : simule l’environnement de production, facilite la compatibilité et l’isolation des projets.
+  - XAMPP : utilisé pour certains tests rapides en local.
+
+- **Importance** :  
+  - Maîtriser ces outils et technologies est essentiel pour garantir la qualité, la sécurité, la maintenabilité et l’évolutivité des projets réalisés chez Vernalis.
 
 ---
 
@@ -147,6 +186,15 @@
 - Envie de continuer dans le développement web, viser plus de responsabilités (lead dev, gestion de projet)
 - Objectif : approfondir l’expertise technique, continuer à apprendre et à transmettre à l’équipe
 - Volonté de rester dans un environnement stimulant, avec des projets variés et une équipe soudée
+
+**Points à développer à l’oral :**
+- Cette alternance m’a permis de passer d’un niveau débutant à un niveau où je peux gérer un projet web de bout en bout, de l’intégration à la mise en production.
+- J’ai pris confiance en mes capacités techniques : aujourd’hui, je sais installer, configurer, migrer, maintenir et faire évoluer un site WordPress complexe.
+- J’ai aussi progressé sur le plan organisationnel : gestion des priorités, planification, documentation, communication avec l’équipe et les clients.
+- Sur le plan humain, j’ai découvert l’importance de l’entraide, de la transmission des connaissances et de la prise d’initiative.
+- Cette expérience m’a donné envie de continuer à progresser, à me spécialiser sur des aspects techniques avancés (automatisation, sécurité, devops, pipelines CI/CD), mais aussi à encadrer ou former d’autres alternants à l’avenir.
+- Je souhaite également renforcer mes compétences en gestion de projet, pour pouvoir piloter des projets plus complexes et accompagner les clients dans la durée.
+- Enfin, je retiens que la curiosité, la rigueur et la capacité à s’adapter sont essentielles pour évoluer dans le numérique : je veux continuer à cultiver ces qualités dans la suite de mon parcours.
 
 ---
 
